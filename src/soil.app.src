@@ -1,0 +1,12 @@
+{application, soil,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { soil_app, []}},
+  {env, []}
+ ]}.
